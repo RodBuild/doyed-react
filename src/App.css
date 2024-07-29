@@ -1,6 +1,7 @@
-body {
-  margin: 0px;
-  padding: 0px;
+:root {
+  --black: #000000;
+  --black-light: #1A1A1A;
+  --black-dark: #0D0D0D;
 }
 main {
   max-width: 1500px;

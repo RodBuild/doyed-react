@@ -1,12 +1,60 @@
 header {
   margin-right: auto;
   margin-left: auto;
-  background-color: red;
 }
-.borders {
+.headerContentContainer {
+  padding: 10px;
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+}
+
+div.overlayContainer {
+  background-color: black;
+  height: 100%;
+  z-index: 9999;
+  position: absolute;
+  margin-top: 0px;
+  top: 0%;
+  right: 0;
+  height: 100%;
+}
+
+/* ul.navigationLinksContainer {
+} */
+
+ul.navigationLinksContainer li {
   padding-top: 10px;
-  /* width: 100px; */
-  /* border: 2px solid black; */
-  /* margin: 10px; */
-  /* padding: 10px; */
+  padding-bottom: 10px;
 }
+
+.imageContainer {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.imageContainer .imageStyle {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .linksContainer {
+  border: 2px solid green;
+} */
+/* .linksContainer ul { */
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* } */
+/* .linksContainer ul li { */
+/* border: 2px solid black; */
+/* padding: 20px; */
+/* } */
+/* .linksContainer ul.linksDesktopLayout {
+  border: 2px solid black;
+  display: flex;
+}
+.linksContainer ul.linksDesktopLayout li {
+  border: 2px solid black;
+  padding: 10px;
+} */
